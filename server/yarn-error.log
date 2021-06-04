@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Franki\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js dev
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Franki\AppData\Local\Microsoft\WindowsApps;;C:\Users\Franki\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Franki\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Franki\Desktop\Leandro WEB\server\package.json: Unexpected string in JSON at position 168
+      at JSON.parse (<anonymous>)
+      at C:\Users\Franki\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Franki\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Franki\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "Pulgas",
+    "version": "1.0.0",
+    "description": "App pulgas similar a instagram",
+    "main": "index.js",
+    "author": "Leandro Chosco",
+    "license": "MIT"
+    "scripts": {
+      "dev": "node /index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
