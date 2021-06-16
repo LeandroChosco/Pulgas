@@ -1,9 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+pulgas/node_modules
+pulgas/.pnp
+pulgas/.pnp.js
+server/node_modules
+server/.pnp
+server/.pnp.js
 
 # testing
 /coverage
@@ -12,7 +15,7 @@
 /build
 
 # misc
-.env
+server/.env
 .DS_Store
 .env.local
 .env.development.local
