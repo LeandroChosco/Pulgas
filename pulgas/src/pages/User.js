@@ -18,13 +18,13 @@ export default function User() {
   useEffect(() => {
     startPolling(1000);
     return () => {
-      startPolling();
+      stopPolling();
     };
-  }, [startPolling, startPolling]);
+  }, [startPolling, stopPolling]);
 
   if (loading) return null;
   const { getPublications } = data;
-  console.log(size(getPublications));
+
   return (
     <>
       <Profile username={username} totalPublications={size(getPublications)} />

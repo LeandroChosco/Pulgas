@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { size } from "lodash";
 import { useQuery } from "@apollo/client";
-import modalBasic from "../../../Modal/ModalBasic";
 import { GET_FOLLOWERS, GET_FOLLOWEDS } from "../../../../gql/follow";
 import "./Followers.scss";
 import ListUsers from "../../ListUsers";

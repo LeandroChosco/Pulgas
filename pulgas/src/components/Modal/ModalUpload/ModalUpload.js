@@ -22,7 +22,7 @@ export default function ModalUpload(props) {
   });
 
   const { getRootProps, getInputProps } = useDropzone({
-    accept: "image/jpg, image/png",
+    accept: "image/jpeg, image/png",
     noKeyboard: true,
     multiple: false,
     onDrop,
